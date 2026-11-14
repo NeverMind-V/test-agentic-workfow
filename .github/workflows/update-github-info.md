@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit: true
   web-fetch: {}
@@ -38,8 +39,9 @@ Read `notes/mona-notes.md` and `site/content/github-info.md` before proposing ed
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
-Update `site/content/github-info.md` only with recent, official information that adds practical value for developers. Keep summaries short, preserve the page's existing organization and voice, avoid duplicate or speculative claims, and link each new item to its specific GitHub Blog or Changelog source.
+Update `site/content/github-info.md` only with recent, official information that adds practical value for developers. Keep summaries short, preserve the page's existing organization and voice, avoid duplicate or speculative claims, and link each new item to its specific GitHub Blog, Changelog, or Awesome Copilot workflows source.
 
 Before editing, inspect open pull requests for an existing `[GitHub Info]` update. If one is already open, do not create a competing PR; call `noop` with a brief reason and let Mona review or close the existing PR. If neither source has a useful update or the page needs no change, call `noop` with a brief reason.
 
