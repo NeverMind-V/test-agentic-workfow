@@ -12,8 +12,8 @@ permissions:
 strict: true
 engine:
   id: copilot
-  version: "1.0.112"
-  checksums-sha256: "2759d812fee448e974135ad4e0bb0005b4e3fedfed2bf43c190bd0c60d02c214"
+  version: "1.0.109"
+  checksums-sha256: "7ee75a437979f251b950c7ed16eccb1d7aa6fb10f8d3c4b947e41d0bb9050e78"
   copilot-sdk: true
 network:
   allowed:
